@@ -46,7 +46,7 @@ body {
 .article > :nth-child(1) {
   background-color: var(--yellow);
   color: var(--dark-gray-950);
-  font-size: 1.7vw;
+  font-size: 1.5vw;
   font-weight: bold;
   display: inline-block;
   padding: 4px 6px;
@@ -56,13 +56,13 @@ body {
 
 .article :nth-child(2) {
   color: var(--dark-gray-950);
-  font-size: 1.7vw;
+  font-size: 1.5vw;
   margin-bottom: 8px;
 }
 
 .article :nth-child(3) {
   color: var(--dark-gray-950);
-  font-size: 2.2vw;
+  font-size: 2vw;
   font-weight: bold;
 }
 
@@ -73,7 +73,7 @@ body {
 
 .article :nth-child(4) {
   color: var(--light-gray-500);
-  font-size: 1.7vw;
+  font-size: 1.5vw;
   margin-block: 12px;
 }
 
@@ -89,6 +89,6 @@ body {
 }
 
 .avatar-name > p {
-  font-size: 0.8vw;
+  font-size: 0.6vw;
   font-weight: bold;
 }
