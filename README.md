@@ -46,6 +46,8 @@ I learnt to visualize my solutions first before coding it out. After taking my t
 
 In the HTML i made use of a div with the class name of .main to hold to hold a single div with the class name of .container that serves as parent to the images and contents. The reason for this approach is to achieve a similar look to the expected result, i was able to center the .container div and also add the CSS box shadow property.
 
+Also discovered new ways to reduce font size in css without neccessarily using media queries, i made use of the viewport units.
+
 
 ### Continued development
 

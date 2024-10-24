@@ -43,10 +43,21 @@ body {
   margin-bottom: 20px;
 }
 
-.article > :nth-child(1) {
+/* .article > :nth-child(1) {
   background-color: var(--yellow);
   color: var(--dark-gray-950);
   font-size: 12px;
+  font-weight: bold;
+  display: inline-block;
+  padding: 4px 6px;
+  border-radius: 2px;
+  margin-bottom: 8px;
+} */
+
+.article > :nth-child(1) {
+  background-color: var(--yellow);
+  color: var(--dark-gray-950);
+  font-size: 2.5vw;
   font-weight: bold;
   display: inline-block;
   padding: 4px 6px;
@@ -56,13 +67,13 @@ body {
 
 .article :nth-child(2) {
   color: var(--dark-gray-950);
-  font-size: 14px;
+  font-size: 2.5vw;
   margin-bottom: 8px;
 }
 
 .article :nth-child(3) {
   color: var(--dark-gray-950);
-  font-size: 20px;
+  font-size: 4vw;
   font-weight: bold;
 }
 
@@ -73,7 +84,7 @@ body {
 
 .article :nth-child(4) {
   color: var(--light-gray-500);
-  font-size: 14px;
+  font-size: 2.5vw;
   margin-block: 12px;
 }
 
@@ -89,5 +100,6 @@ body {
 }
 
 .avatar-name > p {
+  font-size: 2vw;
   font-weight: bold;
 }
