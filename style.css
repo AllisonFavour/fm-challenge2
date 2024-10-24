@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* css variables */
+:root {
+  --main-font: "Figtree", sans-serif;
+  --yellow: hsl(47, 88%, 63%);
+  --white: hsl(0, 0%, 100%);
+  --light-gray-500: hsl(0, 0%, 42%);
+  --dark-gray-950: hsl(0, 0%, 7%);
+}
+
+body {
+  font-family: var(--main-font);
+}
+
+.main {
+  max-width: 1440px;
+  height: 100vh;
+  background-color: var(--yellow);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background-color: var(--white);
+  width: 360px;
+  max-width: 1440px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 4px 4px black;
+}
+
+.img-section img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.article > :nth-child(1) {
+  background-color: var(--yellow);
+  color: var(--dark-gray-950);
+  font-size: 12px;
+  font-weight: bold;
+  display: inline-block;
+  padding: 4px 6px;
+  border-radius: 2px;
+  margin-bottom: 8px;
+}
+
+.article :nth-child(2) {
+  color: var(--dark-gray-950);
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.article :nth-child(3) {
+  color: var(--dark-gray-950);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.article :nth-child(3):hover {
+  color: var(--yellow);
+  cursor: pointer;
+}
+
+.article :nth-child(4) {
+  color: var(--light-gray-500);
+  font-size: 14px;
+  margin-block: 12px;
+}
+
+.avatar-name {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.avatar-name > img {
+  width: 30px;
+  height: auto;
+}
+
+.avatar-name > p {
+  font-weight: bold;
+}
